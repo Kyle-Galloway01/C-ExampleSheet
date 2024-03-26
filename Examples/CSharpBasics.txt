@@ -136,4 +136,3 @@ C# Basics Cheat Sheet
       }
       ```
 
-This cheat sheet provides an overview of fundamental concepts in C# programming, including syntax, variables, control flow, arrays, methods, object-oriented programming (OOP), asynchronous programming, and serialization/deserialization. Use it as a reference guide to refresh your memory and deepen your understanding of C# as a junior developer. 
