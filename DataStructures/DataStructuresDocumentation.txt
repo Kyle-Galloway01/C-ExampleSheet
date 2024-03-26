@@ -1,0 +1,65 @@
+Data Structures Documentation
+---------------------------
+
+1. Arrays:
+
+- Description:
+  Arrays are fixed-size collections of elements of the same type stored in contiguous memory locations. They offer constant-time access to elements but may require shifting elements when inserting or deleting.
+
+- Example Usage:
+  - Create an array: int[] numbers = { 1, 2, 3, 4, 5 };
+  - Reverse and sort array elements: Array.Reverse(numbers); Array.Sort(numbers);
+
+2. Lists:
+
+- Description:
+  Lists are dynamic arrays that automatically resize to accommodate the number of elements they contain. They provide methods for adding, removing, and accessing elements efficiently.
+
+- Example Usage:
+  - Create a list: List<int> numbers = new List<int>() { 1, 2, 3, 4, 5 };
+  - Perform advanced operations using LINQ: numbers.Sum(), numbers.Average();
+
+3. Stacks:
+
+- Description:
+  Stacks are last-in, first-out (LIFO) data structures. Elements are added and removed from the top of the stack.
+
+- Example Usage:
+  - Create a stack: Stack<int> stack = new Stack<int>();
+  - Push and pop elements onto and from the stack: stack.Push(1); int poppedElement = stack.Pop();
+
+4. Queues:
+
+- Description:
+  Queues are first-in, first-out (FIFO) data structures. Elements are added at the rear and removed from the front of the queue.
+
+- Example Usage:
+  - Create a queue: Queue<string> queue = new Queue<string>();
+  - Enqueue and dequeue elements from the queue: queue.Enqueue("John"); string dequeuedElement = queue.Dequeue();
+
+5. Dictionaries/Hash Tables:
+
+- Description:
+  Dictionaries are key-value pair data structures that provide fast lookups, insertions, and deletions based on keys.
+
+- Example Usage:
+  - Create a dictionary: Dictionary<string, int> scores = new Dictionary<string, int>();
+  - Add and access key-value pairs: scores["John"] = 90; int score = scores["John"];
+
+6. Sets:
+
+- Description:
+  Sets store unique elements without any specific order and offer efficient operations for adding, removing, and checking for the presence of elements.
+
+- Example Usage:
+  - Create a set: HashSet<int> set = new HashSet<int>() { 1, 2, 3, 4, 5 };
+  - Perform set operations like union and intersection: set1.UnionWith(set2); set1.IntersectWith(set2);
+
+7. Linked Lists:
+
+- Description:
+  Linked lists consist of nodes where each node contains a data element and a reference to the next node in the sequence.
+
+- Example Usage:
+  - Define a node class: public class Node<T> { public T Data; public Node<T> Next; }
+  - Create and manipulate a linked list: LinkedList<int> list = new LinkedList<int>(); list.Add(1); list.Add(2); list.Display();
