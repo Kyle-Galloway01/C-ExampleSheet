@@ -1,0 +1,56 @@
+C# Cheat Sheet
+--------------
+
+1. C#:
+   - C# (pronounced as "C sharp") is a modern, general-purpose programming language developed by Microsoft.
+   - It is designed for building robust, scalable applications targeting the .NET framework.
+   - C# is widely used for developing various types of software, including desktop applications, web applications, mobile apps, games, and more.
+
+2. Variables and Data Types:
+   - Variables are used to store data in memory during program execution.
+   - C# is a statically typed language, meaning you must declare the type of each variable before using it.
+   - Common data types in C# include:
+     - int (integer)
+     - double (floating-point number)
+     - string (text)
+     - bool (boolean, true or false)
+
+3. Control Flow:
+   - Conditional Statements:
+     - if-else statement: Executes a block of code based on a condition.
+     - switch-case statement: Selects one of many blocks of code to execute.
+   - Loops:
+     - for loop: Executes a block of code a specified number of times.
+     - while loop: Executes a block of code while a specified condition is true.
+     - do-while loop: Executes a block of code at least once, then repeats as long as a specified condition is true.
+
+4. Arrays and Collections:
+   - Arrays: Stores a fixed-size sequential collection of elements of the same type.
+   - Lists: Dynamic arrays that can grow or shrink in size.
+   - Provides methods for adding, removing, and accessing elements efficiently.
+
+5. Methods and Functions:
+   - Methods are blocks of code that perform a specific task and can be called multiple times.
+   - Functions are methods that return a value.
+   - Methods can have parameters and return types.
+
+6. Object-Oriented Programming (OOP):
+   - Classes and Objects:
+     - Classes are blueprints for creating objects.
+     - Objects are instances of classes that represent real-world entities.
+   - Encapsulation:
+     - Encapsulates the data (attributes) and methods (behaviors) of a class into a single unit.
+   - Inheritance:
+     - Allows a class (derived class or subclass) to inherit properties and behavior from another class (base class or superclass).
+   - Polymorphism:
+     - Enables objects to take on multiple forms based on their context.
+
+7. Asynchronous Programming:
+   - Asynchronous programming allows you to perform tasks concurrently without blocking the main thread.
+   - async and await keywords are used to define asynchronous methods and await asynchronous operations.
+   - Task and Task<T> types represent asynchronous operations.
+
+8. Serialization and Deserialization:
+   - Serialization is the process of converting objects into a stream of bytes for storage or transmission.
+   - Deserialization is the process of converting a stream of bytes back into objects.
+   - JSON and XML are common serialization formats.
