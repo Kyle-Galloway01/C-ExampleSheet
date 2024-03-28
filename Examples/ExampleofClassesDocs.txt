@@ -1,0 +1,47 @@
+1. Definition: A class is defined using the `class` keyword followed by the class name. It encapsulates data for the object (in the form of fields or properties) and behavior (in the form of methods).
+
+   Example:
+   public class MyClass
+   {
+       // Fields
+       private int myField;
+
+       // Properties
+       public int MyProperty { get; set; }
+
+       // Methods
+       public void MyMethod()
+       {
+           // Method implementation
+       }
+   }
+
+2. Fields and Properties: Fields represent the data/state of an object, while properties provide controlled access to this data. Fields are declared within the class, whereas properties provide a way to access or modify private fields using getter and setter methods.
+
+3. Methods: Methods represent the behavior of objects. They contain code to perform specific tasks or operations. Methods can be instance methods (operating on individual objects) or static methods (operating on the class itself).
+
+4. Constructors: Constructors are special methods invoked when an object of a class is created. They initialize the object's state, typically by assigning initial values to its fields or properties.
+
+   Example:
+   public class MyClass
+   {
+       private int myField;
+
+       // Constructor
+       public MyClass(int initialValue)
+       {
+           myField = initialValue;
+       }
+   }
+
+5. Access Modifiers: Access modifiers control the visibility and accessibility of members (fields, properties, methods, etc.) of a class. The commonly used access modifiers are `public`, `private`, `protected`, `internal`, and `protected internal`.
+
+6. Inheritance: Inheritance allows a class to inherit fields, properties, and methods from another class, known as the base or parent class. C# supports single inheritance, meaning a class can inherit from only one base class.
+
+   Example:
+   public class ChildClass : ParentClass
+   {
+       // Additional members and overrides
+   }
+
+7. Encapsulation: Encapsulation is the practice of bundling the data (fields) and methods that operate on the data within a single unit (class). It helps in hiding the internal implementation details of a class and exposing only the necessary functionalities through well-defined interfaces (properties and methods).
